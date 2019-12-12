@@ -17,7 +17,7 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array,starting_point)
-   source_array.reduce(starting_point) {|i,a| i+a}
+   source_array.reduce(starting_point)
    #binding.pry
 end
 
