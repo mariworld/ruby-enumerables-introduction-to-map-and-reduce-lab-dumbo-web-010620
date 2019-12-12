@@ -17,7 +17,7 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array)
-   source_array.reduce(Integer) {|i,sum| i+sum}
+   source_array.reduce(0) {|i,sum| i+sum}
    #binding.pry
 end
 
@@ -26,7 +26,7 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-   source_array.reduce() {|i,a| a || i = false}
+   source_array.reduce(false) {|i,a| a || i = false}
 end
 
 
