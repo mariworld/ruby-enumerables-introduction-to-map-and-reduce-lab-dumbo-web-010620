@@ -18,7 +18,7 @@ end
 
 def reduce_to_total(source_array)
    source_array.reduce {|i,a| i+a}
-   #binding.pry
+   binding.pry
 end
 
 def reduce_to_all_true(source_array)
